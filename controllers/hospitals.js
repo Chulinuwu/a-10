@@ -78,7 +78,7 @@ exports.getHospitals = async (req, res, next) => {
 //@access Public
 exports.getHospital = async (req, res, next) => {
     try{
-        const Hospital = await Hospital.findById(req.params.id);
+        const hospital = await Hospital.findById(req.params.id);
         if(!hospital){
             return res.status(400).json({ success: false });
         }
