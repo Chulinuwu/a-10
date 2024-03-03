@@ -688,5 +688,37 @@
 			},
 			"response": []
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://ananungung.ap-southeast-2.elasticbeanstalk.com",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZGVkNzAyMzRhYWE4MGI5YzNhOTUxZiIsImlhdCI6MTcwOTQ4Mjk0NCwiZXhwIjoxNzEyMDc0OTQ0fQ.uPEEuKeYuGQr1zSP0HLtbweAYx_d-hBp2N7GFodW_yY",
+			"type": "string"
+		}
 	]
 }
