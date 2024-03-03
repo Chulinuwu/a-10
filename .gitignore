@@ -1,4 +1,4 @@
 #all in node_modules folder
 node_modules/*
 #all config files
-config/config.env
+# config/config.env
